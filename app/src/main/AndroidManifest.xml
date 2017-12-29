@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="OAuthActivity"
+            android:name=".OAuthActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -30,6 +30,11 @@
                     android:scheme="oneway"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TweetActivity"
+            android:launchMode="singleTask">
+        </activity>
+
     </application>
 
 </manifest>

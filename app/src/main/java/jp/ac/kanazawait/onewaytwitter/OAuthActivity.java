@@ -108,6 +108,7 @@ public class OAuthActivity extends Activity {
 
         // MainActivityへ遷移
         Intent intent = new Intent(this, MainActivity.class);
+
         startActivity(intent);
 
         // このアクティビティを終了

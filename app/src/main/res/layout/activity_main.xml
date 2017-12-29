@@ -19,22 +19,14 @@
         app:layout_constraintVertical_bias="0.178" />
 
     <Button
-        android:id="@+id/authorization"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/oauth"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/tweetButton"
+        android:id="@+id/transition_tweet_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:layout_marginEnd="148dp"
         android:layout_marginStart="148dp"
         android:layout_marginTop="45dp"
-        android:text="@string/tweet"
+        android:text="@string/transition_tweet_activity"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -52,22 +44,22 @@
         tools:layout_editor_absoluteX="8dp">
 
         <TextView
-            android:id="@+id/tweetText1"
+            android:id="@+id/tweeted1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/tweet_1" />
+            android:text="@string/tweeted1" />
 
         <TextView
-            android:id="@+id/tweetText2"
+            android:id="@+id/tweeted2"
             android:layout_width="match_parent"
             android:layout_height="71dp"
-            android:text="@string/tweet_2" />
+            android:text="@string/tweeted2" />
 
         <TextView
-            android:id="@+id/tweetText3"
+            android:id="@+id/tweeted3"
             android:layout_width="match_parent"
             android:layout_height="86dp"
-            android:text="@string/tweet_3" />
+            android:text="@string/tweeted3" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
