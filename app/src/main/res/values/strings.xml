@@ -8,4 +8,9 @@
     <string name="twitter_callback_url">oneway://twitter</string>
 
     <string name="action_setting">Settings</string>
+    <string name="tweet">Tweet</string>
+    <string name="tweet_1">Tweet 1</string>
+    <string name="tweet_2">Tweet 2</string>
+    <string name="tweet_3">Tweet 3</string>
+    <string name="oauth">アカウント認証</string>
 </resources>
