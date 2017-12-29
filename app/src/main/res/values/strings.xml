@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnewayTwitter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+    <string name="twitter_consumer_key">qfcci2LzxXJTWVqKzFNJvqgMc</string>
+    <string name="twitter_consumer_secret">CXtPWWWKBnZ9OqQQ4lrjDzR8HuCRyWLIBpka2rKYh59MrL6rtb</string>
+    <string name="twitter_callback_url">oneway://twitter</string>
+
+    <string name="action_setting">Settings</string>
+</resources>
