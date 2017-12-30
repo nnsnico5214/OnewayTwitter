@@ -13,7 +13,7 @@ import android.view.View.*;
 public class TweetActivity extends Activity implements OnClickListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tweet);
 
@@ -21,9 +21,9 @@ public class TweetActivity extends Activity implements OnClickListener {
     }
 
     @Override
-    public void onClick(View v){
-        if(v != null){
-            switch (v.getId()){
+    public void onClick(View v) {
+        if (v != null) {
+            switch (v.getId()) {
                 // Click Tweet Button
                 case R.id.tweet_button:
                     Intent mainIntent = new Intent(getApplication(), MainActivity.class);
@@ -35,5 +35,4 @@ public class TweetActivity extends Activity implements OnClickListener {
             }
         }
     }
-
 }
